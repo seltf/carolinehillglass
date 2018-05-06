@@ -1,0 +1,216 @@
+*{ 
+	position: relative; 
+}
+body {
+}
+.backg {
+	width: 100%;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px;
+}
+a {
+	display: inline-block;
+	color: #212121;
+	background-color: 000000;
+}
+a:link {
+    text-decoration: none;
+	color: #212121;
+}
+a:hover {
+	text-decoration: none;
+	color:  !important;
+}
+a:visited {
+	text-decoration: none;
+	color: #212121;
+}
+ul {
+	position: fixed;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #212121;
+}
+li {
+	display: inline;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #a0c4ff;
+}
+.active {
+    background-color: #4480e2;
+}
+.monospace {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.nav{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	display: inline;
+}
+.banner {
+	text-align: center;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;		
+}
+.button {
+    border: none;
+    padding: 5px 10px 5%;
+    text-decoration: none;
+    margin: px px;
+    cursor: pointer;
+}
+.button:hover {
+	color: #7c7c7c !important;
+}
+button:focus {
+	outline: none;
+}
+button:active {
+}
+button:hover {
+	color: #ffffff;
+	background-color: #212121;
+}
+.portfolio-button {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 24px;
+	background: linear-gradient(141deg, #a3def7 0%, #1fc8db 51%, #2cb5e8 75%);
+	border: none;
+	color: #ffffff !important;
+	transition-duration: 0.2s;
+	cursor: not-allowed;
+}
+.portfolio-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.center {
+	text-align: center;
+}
+.home-gallery {
+	margin: auto;
+	width: 60%;
+	height: 90%;
+}
+.title-pad {
+	padding-top: 5%;
+}
+.inline-block {
+	display: inline;
+}
+.title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 3px;
+	color: black;
+}
+.sub-title {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 24px;
+	color: #555555;
+}
+.glass-photo {
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	padding-right: 1px;
+	width: 332;
+	height: 249;
+}
+.title-padding {
+	padding-top: 5%;
+}
+.intro-block {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2%;
+}
+.dropbtn {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 48px;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    z-index: 1;
+	colour: black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
