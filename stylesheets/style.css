@@ -92,7 +92,22 @@ li a:hover {
 	text-align: center;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;		
 }
-.button {
+.notice-bar {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 9;
+	color: #ffffff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #f78080;
+}
+.contact-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12;
+}
+.nav-button {
     border: none;
     padding: 5px 10px 5%;
     text-decoration: none;
