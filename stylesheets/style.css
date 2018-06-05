@@ -25,11 +25,10 @@ h3 {
 	line-height: 15.4px;
 }
 p {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
-	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18;
+	font-weight: 300;
+	text-align: justify;
 }
 a {
 	display: inline-block;
@@ -124,6 +123,10 @@ li a:hover {
 }
 .center {
 	text-align: center;
+}
+.about-margins{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .home-gallery {
 	margin: auto;
