@@ -124,6 +124,9 @@ li a:hover {
 .center {
 	text-align: center;
 }
+.bold{
+	font-weight: 700;
+}
 .about-margins{
 	padding-left: 20%;
 	padding-right: 20%;
@@ -155,7 +158,7 @@ li a:hover {
 	text-align: center;
 	display: inline-block;
 	overflow: hidden;
-	padding-right: 1px;
+	padding-right: 3px;
 	width: 300;
 	height: 300;
 }
