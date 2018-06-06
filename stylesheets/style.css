@@ -149,11 +149,6 @@ li a:hover {
 	letter-spacing: 3px;
 	color: black;
 }
-.sub-title {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 24px;
-	color: #555555;
-}
 .glass-photo {
 	text-align: center;
 	display: inline-block;
@@ -164,14 +159,6 @@ li a:hover {
 }
 .title-padding {
 	padding-top: 5%;
-}
-.intro-block {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 18px;
-	font-weight: normal;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-top: 2%;
 }
 .drop-button {
     border: none;
