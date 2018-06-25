@@ -96,6 +96,16 @@ li a:hover {
 	top: 0;
 	background-color: #f78080;
 }
+.basket-pos {
+	position: fixed;
+	z-index: 1;
+	top: 5%;
+	right: 3%;
+}
+.desc-text {
+	font-size: 12;
+	color: #828282;
+}
 .contact-text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -108,7 +118,14 @@ li a:hover {
     margin: px px;
     cursor: pointer;
 }
-
+.info-box {
+	background-color: #33c3f0;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
 .portfolio-button {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 24px;
