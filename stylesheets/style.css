@@ -81,6 +81,9 @@ li a:hover {
 	font-weight: 300;
 	display: inline;
 }
+.nav-section{
+	padding-bottom: 5%;
+}
 .banner {
 	text-align: center;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;		
@@ -113,7 +116,7 @@ li a:hover {
 }
 .nav-button {
     border: none;
-    padding: 5px 10px 5%;
+    padding: 5px 10px;
     text-decoration: none;
     margin: px px;
     cursor: pointer;
@@ -144,6 +147,7 @@ li a:hover {
 .bold{
 	font-weight: 700;
 }
+
 .about-margins{
 	padding-left: 20%;
 	padding-right: 20%;
@@ -185,7 +189,26 @@ li a:hover {
     margin: px px;
     cursor: pointer;
 }
-
+.boxText{
+	padding: 100px;
+}
+.homeBox{
+	display: inline-block;
+}
+.homeBoxImage{
+	padding-right: 00px;
+	margin-right: 00px;
+}
+.homeTextBox {
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	width: 700px;
+	height: 500px;
+	padding: 0px;
+	vertical-align: middle;
+	padding-bottom: 500px;
+	font-size: 20px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -203,7 +226,6 @@ li a:hover {
     padding: 12px 10px;
     z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
