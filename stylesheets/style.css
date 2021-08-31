@@ -200,9 +200,11 @@ li a:hover {
 .homeBoxImage{
 	padding-right: 00px;
 	margin-right: 00px;
+	max-height: 500px;
 	max-width: 100%;
 	height: auto;
 }
+
 .homeTextBox {
 	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
